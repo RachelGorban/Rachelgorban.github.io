@@ -1,0 +1,47 @@
+/*CSS DOCUMENT*/
+
+<link rel="stylesheet" type="text/css" href="lasagnastyle.css"/>div.container {
+	text-align: center margin: auto;
+}
+
+h1 {
+	text-align: center;
+	margin: auto;
+	color: #6d1d21;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+h2 {
+	text-align: center;
+	margin: auto;
+	color: #cc7206;
+}
+
+div.intro {
+	max-width: 40em;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+h3 {
+	color: #6d1d21;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+div.maincontent {
+	max-width: 40em;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+footer {
+	max-width: 8em;
+	margin: auto;
+	color: #6d1d21;
+}
