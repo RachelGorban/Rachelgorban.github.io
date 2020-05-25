@@ -1,0 +1,74 @@
+/*CSS DOCUMENT*/
+
+body {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+
+ul {
+	list-style: none;
+	display: inline-block;
+	font-family: "Cubano";
+}
+
+ul li {
+	float: left;
+	margin:none;
+    padding: 1em;
+	list-style: none;
+}
+
+a:link {
+	color: #59170f;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #59170f;
+}
+
+a:hover {
+	color: #de6341;
+}
+
+h1,
+h2 {
+	color: #de6341;
+	font-family: "Cubano";
+}
+
+h3 {
+	color: #59160d;
+	font-family: "Cubano";
+}
+
+p {
+	font-family: "Avenir";
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+div.blurb{
+    max-width: 25em;
+}
+
+@media only screen and (min-width: 25em){
+    div.blurb {
+        width: 45%;
+        float: left;
+        margin-right: 1em;
+    }
+}
+@media only screen and (min-width: 36em){
+    div.blurb{
+        width: 22%;
+    }
+}
